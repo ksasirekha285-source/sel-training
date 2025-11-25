@@ -14,3 +14,7 @@ class Numbers:
                  else:
                      print(i)
 
+num=Numbers()
+num.even_odd(10,20)
+num.prime_numbers()
+
