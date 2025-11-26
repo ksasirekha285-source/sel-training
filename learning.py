@@ -1,3 +1,4 @@
+
 class Numbers:
      def even_odd(self,start,end):
          for i in range(1,10):
@@ -13,6 +14,13 @@ class Numbers:
                      break
                  else:
                      print(i)
+                     
+    def odd(self,start,end):
+        for i in range(1,20)
+            if 10%2!=0:
+                print("odd")
+            else:
+                print("even")
 
 num=Numbers()
 num.even_odd(10,20)
