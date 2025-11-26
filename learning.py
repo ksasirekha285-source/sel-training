@@ -1,4 +1,7 @@
-
+def outer(func):
+    def wrapper(*args,**kwargs):
+        func(*args,**kwargs)
+    return wrapper
 class Numbers:
      def even_odd(self,start,end):
          for i in range(1,10):
@@ -14,7 +17,7 @@ class Numbers:
                      break
                  else:
                      print(i)
-                     
+
     def odd(self,start,end):
         for i in range(1,20)
             if 10%2!=0:
